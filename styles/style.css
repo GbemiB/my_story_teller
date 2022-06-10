@@ -1,0 +1,39 @@
+body {
+  background-color: #14041e;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+}
+#pageTitle {
+  font-family: fantasy;
+  font-size: 3.5rem;
+  color: palevioletred;
+  margin: 2rem;
+  font-weight: bold;
+}
+.para {
+  color: #ffffff;
+  font-size: medium;
+}
+.content {
+  margin-top: 10rem;
+}
+.btn {
+  margin: 2rem;
+  width: 20rem;
+  height: 3.5rem;
+  border-radius: 2rem;
+  color: palevioletred;
+  font-weight: 100;
+}
+#footerLine {
+  background-color: #ffffff;
+}
+.story-modal{
+  color: palevioletred;
+  font-weight: 100;
+  font-size: larger;
+  border-radius: 1.5rem;
+}
+.btn-close{
+  font-size: small;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Story Teller</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <!-- body -->
+  <body>
+    <!-- navigation menu -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-0 fixed-top">
+      <div class="container">
+        <a class="navbar-brand"
+          ><img src="assets/img/logo.jpeg" width="80"
+        /></a>
+        <div>
+          <ul class="navbar-nav">
+            <li>
+              <a class="nav-link" href="#instagram"
+                ><img src="assets/img/ig.jpeg" width="25" /> Instagram</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="#twitter"
+                ><img src="assets/img/twitter.jpeg" width="25" />Twitter</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="#facebook"
+                ><img src="assets/img/fb.jpeg" width="40" />Facebook</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="#whatsapp"
+                ><img src="assets/img/whatsapp.jpeg" width="30" />Whatsapp</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main page content -->
+    <section class="content">
+      <div class="col-md-12 text-center">
+        <img src="assets/img/story.jpeg" width="250" />
+        <p id="pageTitle">My Story Time</p>
+        <button
+          type="button"
+          class="btn btn-outline-light"
+          data-bs-toggle="modal"
+          data-bs-target="#story"
+        >
+          Tell a story to create lasting memories
+        </button>
+        <p class="para">
+          Storytelling is our obligation to the next generation, If all we are
+          doing is marketing,
+          <br />
+          we are doing a disservice, and not only to our profession, but to our
+          children,
+          <br />
+          and their children.
+          <br />
+        </p>
+      </div>
+    </section>
+    <!-- Start Modal-->
+    <div class="modal fade" id="story" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content story-modal">
+          <div class="modal-header">
+            <img src="assets/img/logo.jpeg" width="50" />
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="text-center">It's worked</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer id="footer" class="pt-5 pb-2">
+      <hr id="footerLine" />
+      <div class="col-md-12 text-center">
+        <p class="para">
+          @2020 Story Teller International. All rights reserved | legal |contact
+          us.
+        </p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="service/bootstrap.min.js"></script>
+  </body>
+</html>
